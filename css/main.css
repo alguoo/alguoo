@@ -1,3 +1,50 @@
 body {
 	font-family: Quicksand;
 }
+
+#header {
+    border: 5px solid red;
+    color: red;
+    margin: 20% 30%;
+    padding: 5%;
+    margin-bottom: 0;
+}
+
+.nav {
+	list-style: none;
+	margin: 0% 30%;
+	border: 5px solid black;
+	padding: 1%;
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 40%;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover {
+	opacity: .5;
+}
+
+@media (max-width: 800px) {
+	#header, .nav {
+		margin: 20%;
+	}
+}
+
+@media (max-width: 500px) {
+	#header, .nav {
+		margin: 10%;
+	}
+	.nav {
+		text-align: center;
+		flex-direction: column;
+	}
+}
