@@ -5,6 +5,7 @@ var index = 4;
 var palette = ["#EDAE49", "#D1495B", "#00798C", "#30638E", "#003D5B"];
 head.style.transition = "all .6s";
 head.addEventListener("mouseover", paletteChange);
+head.addEventListener("click", paletteChange);
 
 for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("mouseover", hover);

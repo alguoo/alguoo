@@ -1,0 +1,22 @@
+* {
+	font-family: Quicksand;
+	font-size: 20px;
+	color: rgba(0,0,0,.5);
+	margin: 0 0;;
+    scroll-behavior: smooth;
+    text-decoration: none;
+}
+
+
+
+h1 {
+    color: black;
+    font-size: 2rem;
+}
+
+h3 {
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+}

@@ -59,6 +59,7 @@ h1 {
 
 #blurb {
 	color: rgba(0,0,0,.5);
+	min-height: 2rem;
 }
 
 section {
