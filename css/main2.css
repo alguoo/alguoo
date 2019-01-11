@@ -1,0 +1,37 @@
+body {
+	font-family: Quicksand;
+	font-size: 16pt;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+}
+
+#header {
+	grid-column: span 12;
+    border: 5px solid red;
+    color: red;
+}
+
+.nav {
+	margin: 0;
+	grid-column: span 4;
+	list-style: none;
+	border: 5px solid black;
+}
+
+.nav a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover {
+	opacity: .5;
+}
+
+#main {
+	grid-column: span 8;
+	border: 5px solid blue;
+	color: blue;
+}

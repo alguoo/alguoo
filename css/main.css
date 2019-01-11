@@ -1,5 +1,6 @@
 body {
 	font-family: Quicksand;
+	font-size: 16pt;
 }
 
 #header {
@@ -15,10 +16,10 @@ body {
 	margin: 0% 30%;
 	border: 5px solid black;
 	padding: 1%;
-	display: -webkit-box;
+	/*display: -webkit-box;
 	display: -moz-box;
 	display: -ms-flexbox;
-	display: -webkit-flex;
+	display: -webkit-flex;*/
 	display: flex;
 	justify-content: space-around;
 	margin-bottom: 40%;
@@ -33,15 +34,11 @@ body {
 	opacity: .5;
 }
 
-@media (max-width: 800px) {
-	#header, .nav {
-		margin: 20%;
-	}
-}
 
-@media (max-width: 500px) {
-	#header, .nav {
-		margin: 10%;
+@media (max-width: 800px) {
+	#header, .nav{
+		margin-left: 10%;
+		margin-right: 10%;
 	}
 	.nav {
 		text-align: center;

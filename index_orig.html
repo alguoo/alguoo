@@ -11,26 +11,24 @@
 
 </head>
 <body>
-	<div class="container">
-		<div class="splash">
-			<div id="header">
-				<h1>Hi. I'm Alan Guo.</h1>
-				<div id="blurb">
-					I am a University of Melbourne undergrad, currently studying mathematics and computer science.
-				</div>
-			</div>
 
-			<ul class="nav">
-				<li><a href="#content">About Me</a></li>
-				<li><a href="https://github.com/alguoo/">Projects</a></li>
-				<li><a href="https://github.com/alguoo/">GitHub</a></li>
-				<li><a href="https://au.linkedin.com/in/alan-guo-13b852124">LinkedIn</a></li>
-				<li><a href="">Contact</a></li>
-			</ul>
+	<div class="wrapper">
+		<div id="header">
+			<h1>Hi. I'm Alan Guo.</h1>
+			<div id="blurb">
+				I am a University of Melbourne undergrad, currently studying mathematics and computer science.
+			</div>
 		</div>
 
-		<div id="content">
-			<h2>About Me</h2>
+		<ul class="nav">
+			<li><a href="#education">About Me</a></li>
+			<li><a href="https://github.com/alguoo/">GitHub</a></li>
+			<li><a href="https://au.linkedin.com/in/alan-guo-13b852124">LinkedIn</a></li>
+			<li><a href="">Contact</a></li>
+		</ul>
+
+		<div id="main">
+			
 			<section id="education">
 				<h2>Education</h2>
 				2016 - 2019
@@ -45,7 +43,7 @@
 					<li>Specialisations in Statistics and Pure Mathematics</li>
 					<li>Dean’s Honour List, Faculty of Science, 2017</li>
 				</ul>
-				<br>
+
 				2010-2015
 				<br>
 				Penleigh and Essendon Grammar School
@@ -92,38 +90,8 @@
 				Gold Medal @ Australian Mathematical Olympiad
 				<br><br>
 			</section>
+			
 		</div>
 	</div>
-
-	<script type="text/javascript">
-		var head = document.querySelector("h1");
-		var links = document.querySelectorAll("a");
-
-		var index = 0;
-		var palette = ["#EDAE49", "#D1495B", "#00798C", "#30638E", "#003D5B"];
-		head.style.transition = "all .6s";
-		head.addEventListener("mouseover", paletteChange);
-
-		for (var i = 0; i < links.length; i++) {
-			links[i].addEventListener("mouseover", hover);
-			links[i].addEventListener("mouseout", unhover);	
-			links[i].style.transition = "all .6s"
-		}
-
-		function paletteChange() {
-			index = (index + 1)%palette.length;
-			this.style.color = palette[index];
-		}
-
-		function hover() {
-			this.style.color = head.style.color;
-			this.style.opacity = 0.6;
-		}
-
-		function unhover() {
-			this.style.color = "black";
-			this.style.opacity = 1;
-		}
-	</script>
 </body>
 </html>
