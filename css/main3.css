@@ -14,7 +14,7 @@
 }
 
 .splash {
-	padding: 10px;
+	padding: .4rem;
 	grid-column: 2;
 	grid-row: 2;
 
@@ -23,7 +23,7 @@
 }
 
 #content {
-	padding: 10px;
+	padding: 1.4rem;
 	grid-column: 2;
 	grid-row: 4;
 
@@ -69,6 +69,17 @@ h2 {
 	color: black;
 }
 
+#contactInfo {
+	transition: all .6s;
+	grid-column: 2;
+	grid-row: 3;
+	padding-right: 1.4rem;
+	padding-left: 1.4rem;
+	text-align: right;
+
+}
+
+
 @media (max-width: 1000px) {
 	.container {
 		grid-template-columns: 10% auto 10%;
@@ -84,11 +95,12 @@ h2 {
 @media (max-width: 600px) { 
 	.container {
 		grid-template-columns: 3% auto 3%;
-		grid-template-rows: 15vh 60vh;
+		grid-template-rows: 5vh auto 30vh auto;
 	}
 
 	li {
-		margin-top: 1rem;
+		margin-top: .5vh;
+		margin-bottom: .5vh
 	}
 
 	a {
@@ -96,6 +108,7 @@ h2 {
 	}
 
 	.nav {
+		min-height: 45vh;
 		flex-direction: column;
 	}
 
@@ -103,4 +116,7 @@ h2 {
 		font-size: 2em;
 	}
 
+	#contactInfo {
+		text-align: left;
+	}
 }
