@@ -36,6 +36,7 @@ section {
 }
 
 #contactInfo {
+	overflow: visible;
 	transition: all .6s;
 	padding-right: 1.4rem;
 	padding-left: 1.4rem;
@@ -66,7 +67,7 @@ section {
 @media (max-width: 600px) { 
 	.container {
 		grid-template-columns: 3% auto 3%;
-		grid-template-rows: 5vh auto 30vh auto;
+		grid-template-rows: 5vh 65vh 30vh auto;
 	}
 
 	.splash {

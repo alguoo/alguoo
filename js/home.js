@@ -1,11 +1,9 @@
 var head = document.querySelector("h1");
 var links = document.querySelectorAll("li a");
 
-var index = 4;
-var palette = ["#EDAE49", "#D1495B", "#00798C", "#30638E", "#003D5B"];
 head.style.transition = "all .6s";
-head.addEventListener("mouseover", paletteChange);
-head.addEventListener("click", paletteChange);
+head.addEventListener("mouseover", ()=>{paletteChange(head);});
+head.addEventListener("click", ()=>{paletteChange(head);});
 
 for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("mouseover", hover);
@@ -13,21 +11,8 @@ for (var i = 0; i < links.length; i++) {
     links[i].style.transition = "all .6s"
 }
 
-function paletteChange() {
-    index = (index + 1)%palette.length;
-    head.style.color = palette[index];
-}
 
-function hover() {
-    this.style.color = head.style.color;
-    this.style.opacity = 0.6;
-}
-
-function unhover() {
-    this.style.color = "black";
-    this.style.opacity = 1;
-}
-
+// Contact Info Display
 var contact = document.querySelector("#contactLink");
 var contactInfo = document.querySelector("#contactInfo");
 contactInfo.style.transition = "opacity .6s";
@@ -48,6 +33,7 @@ function contactClick() {
     }
 }
 
+// Sticky navbar
 var nav = document.querySelector(".nav");
 var header = document.querySelector("#header");
 var about = document.querySelector("#about");
@@ -65,4 +51,13 @@ window.addEventListener("scroll", function(){
         about.textContent = "About Me";
     }
 })
-paletteChange();
+
+// begin in palette[0] (orange)
+paletteChange(head);
+
+// Accordians hover effect
+for (var i = 0; i < acc.length; i++) {
+    acc[i].style.transition = "all .6s";
+    acc[i].addEventListener("mouseover", hover);
+    acc[i].addEventListener("mouseout", unhover);
+}

@@ -60,6 +60,13 @@ a:hover {
 	align-self: end;
 }
 
+.panel {
+    display: block;
+	overflow: hidden;
+	max-height: calc(100vh);
+	transition: max-height 0.2s;
+}
+
 @media (max-width: 1000px) {
 	.container {
 		grid-template-columns: 10% auto 10%;
