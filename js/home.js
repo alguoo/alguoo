@@ -40,8 +40,11 @@ function contactClick() {
         contactInfo.style.visibility = "visible";
         contactInfo.style.opacity = "1";
     } else {
-        contactInfo.style.visibility = "hidden";
         contactInfo.style.opacity = "0";
+        setTimeout(function() {
+            contactInfo.style.visibility = "hidden";
+        }, 600);
+
     }
 }
 
