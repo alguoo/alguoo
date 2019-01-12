@@ -1,22 +1,11 @@
-* {
-	font-family: Quicksand;
-	font-size: 20px;
-	color: rgba(0,0,0,.5);
-	margin: 0 0;
-	scroll-behavior: smooth;
-
-}
-
 .container {
-	display: grid;
-	grid-template-columns: 15% auto 15%;
 	grid-template-rows: 30vh 40vh 30vh auto;
 }
 
 .splash {
-	padding: .4rem;
+	/* padding: .4rem; */
 	grid-column: 2;
-	grid-row: 2;
+	grid-row: 2 / 5;
 
 	display: flex;
 	flex-direction: column;
@@ -30,44 +19,25 @@
 }
 
 #header {
-	padding: 1rem;
+	padding: 1rem 1.4rem;
 }
 
-.nav {
-	list-style: none;
-	margin-top: 3vh;
-	padding: 0;
 
-	display: flex;
-	justify-content: space-between;
-
-}
-
-a {
-	padding-left: 1rem;
-	padding-right: 1rem;
-	text-decoration: none;
+li a {
 	font-weight: 700;
-	color: black;
 }
 
 h1 {
 	font-size: 3rem;
 	margin-bottom: 0.2em;
-	color: black;
 }
 
 #blurb {
-	color: rgba(0,0,0,.5);
 	min-height: 2rem;
 }
 
 section {
 	margin-top: 1rem;
-}
-
-h2 {
-	color: black;
 }
 
 #contactInfo {
@@ -80,6 +50,17 @@ h2 {
 
 }
 
+.nav-fixed {
+	position: sticky;
+	top: 0;
+	padding-bottom: 10px;
+} 
+
+#footer {
+	padding-left: 1.4rem;
+	grid-column: 2;
+	grid-row: 5;
+}
 
 @media (max-width: 1000px) {
 	.container {
@@ -99,12 +80,16 @@ h2 {
 		grid-template-rows: 5vh auto 30vh auto;
 	}
 
+	.splash {
+		grid-row: 2;
+	}
+
 	li {
 		margin-top: .5vh;
 		margin-bottom: .5vh
 	}
 
-	a {
+	li a {
 		font-size: 1.5em;
 	}
 

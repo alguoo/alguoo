@@ -45,5 +45,21 @@ function contactClick() {
     }
 }
 
+var nav = document.querySelector(".nav");
+var header = document.querySelector("#header");
+var about = document.querySelector("#about");
 
+window.addEventListener("scroll", function(){
+    var fromTop = window.scrollY;
+    if (header.offsetTop+header.scrollHeight < fromTop) {
+        nav.classList.add("nav-fixed");
+        about.href="#";
+        about.textContent = "Home";
+
+    } else {
+        nav.classList.remove("nav-fixed");
+        about.href="#content";
+        about.textContent = "About Me";
+    }
+})
 paletteChange();
