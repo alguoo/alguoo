@@ -4,7 +4,8 @@
 	color: rgba(120, 120, 120, 1);
 	margin: 0 0;
     scroll-behavior: smooth;
-    text-decoration: none;
+	text-decoration: none;
+	-webkit-overflow-scrolling: touch;
 }
 
 .container {
@@ -69,7 +70,7 @@ a:hover {
 		grid-template-columns: 3% auto 3%;
 		grid-template-rows: 5vh auto 30vh auto;
 	}
-	
+
 	h1 {
 		font-size: 2em;
 	}
