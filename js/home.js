@@ -1,9 +1,12 @@
+// h1 Colour Change
 var head = document.querySelector("h1");
-var links = document.querySelectorAll("li a");
 
 head.style.transition = "all .6s";
 head.addEventListener("mouseover", ()=>{paletteChange(head);});
 head.addEventListener("click", ()=>{paletteChange(head);});
+
+// Links Colour Change
+var links = document.querySelectorAll("li a");
 
 for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("mouseover", hover);
@@ -42,7 +45,7 @@ window.addEventListener("scroll", function(){
     var fromTop = window.scrollY;
     if (header.offsetTop+header.scrollHeight < fromTop) {
         nav.classList.add("nav-fixed");
-        about.href="#";
+        about.href="#top";
         about.textContent = "Home";
 
     } else {
