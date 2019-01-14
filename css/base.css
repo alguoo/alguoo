@@ -1,13 +1,15 @@
 * {
 	font-family: Quicksand;
 	font-size: 18px;
-	color: rgba(120, 120, 120, 1);
 	margin: 0 0;
     scroll-behavior: smooth;
 	text-decoration: none;
 	-webkit-overflow-scrolling: touch;
 }
 
+body {
+	color: rgba(120, 120, 120, 1);
+}
 .container {
 	display: grid;
 	grid-template-columns: 15% auto 15%;
@@ -33,7 +35,8 @@ h3 {
 	list-style: none;
     padding-top: 1rem;
 	padding-left: 1.4rem;
-	padding-right: 1.4rem;;
+	padding-right: 1.4rem;
+	padding-bottom: 10px;
     
 	display: flex;
 	justify-content: space-between;
@@ -64,7 +67,18 @@ a:hover {
     display: block;
 	overflow: hidden;
 	max-height: calc(100vh);
-	transition: max-height 0.2s;
+	transition: max-height 0.5s;
+}
+
+.newTheme {
+    /* background-color: #E0697B; */
+    opacity: 1;
+    background: linear-gradient(#E0697B, #F2CCC3);
+    color: #584B53;
+}
+
+.nav.newTheme {
+    background: rgba(1,1,1,0);
 }
 
 @media (max-width: 1000px) {
