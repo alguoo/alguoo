@@ -27,6 +27,10 @@ function contactClick() {
     if (contactInfo.style.visibility == "hidden" ) {
         contactInfo.style.visibility = "visible";
         contactInfo.style.opacity = "1";
+        console.log(Date());
+        console.log(timeGreeting());
+        
+
     } else {
         contactInfo.style.opacity = "0";
         setTimeout(function() {
@@ -63,4 +67,20 @@ for (var i = 0; i < acc.length; i++) {
     acc[i].style.transition = "all .6s";
     acc[i].addEventListener("mouseover", hover);
     acc[i].addEventListener("mouseout", unhover);
+}
+
+// Time Greeting
+
+var date = new Date();
+
+function timeGreeting() {
+    if (date.getHours() < 5) {
+        return "Good Evening";
+    } else if (date.getHours() < 12) {
+        return "Good Morning";
+    } else if (date.getHours() < 17) {
+        return "Good Afternoon";
+    } else {
+        return "Good Evening";
+    }
 }
