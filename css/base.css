@@ -21,13 +21,14 @@ h1, h2, h3 {
 
 h1 {
 	transition: all .6s;
-    font-size: 2rem;
+	font-size: 2rem;
+	margin-bottom: .2em;
 }
 
 h3 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 1rem;
-    margin-bottom: .5rem;
+    margin-bottom: .5em;
 }
 
 .nav {
@@ -74,7 +75,8 @@ a:hover {
     /* background-color: #E0697B; */
     opacity: 1;
     background: linear-gradient(#E0697B, #F2CCC3);
-    /* color: #584B53; */
+	/* color: #584B53; */
+	color: rgba(0,0,0,.8);
 }
 
 .nav.newTheme {
