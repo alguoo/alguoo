@@ -47,3 +47,9 @@ circle {
     fill:rgb(255, 237, 176);
     
 }
+
+@media (max-width: 600px) {
+    .nav li a {
+        font-size: 1.3rem;
+    }
+}
