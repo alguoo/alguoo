@@ -15,6 +15,14 @@ for (var i = 0; i < acc.length; i++) {
             panel.style.maxHeight = 0;
         }
     });  
+
+    acc[i].style.color = "black";
+    var panel = acc[i].nextElementSibling;
+    if ("accordian active" == acc[i].classList.value) {
+    } else {
+        panel.style.maxHeight = 0;
+    }
+
 }
 
 
