@@ -44,6 +44,17 @@ section {
 	margin-top: 2rem;
 }
 
+.splitbox {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+#me {
+	width: 20%;
+	height: 20%;
+	margin: 0;
+}
 .nav-fixed {
 	position: sticky;
 	top: 0;
@@ -54,6 +65,8 @@ section {
 	display: flex;
 	flex-direction: column;
 }
+
+
 
 @media (max-width: 1000px) {
 
