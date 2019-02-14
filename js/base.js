@@ -10,7 +10,7 @@ for (var i = 0; i < acc.length; i++) {
         // panel.style.display = (panel.style.display == "none") ? "block" : "none";
 
         if ("accordian active" == this.classList.value) {
-            panel.style.maxHeight = panel.scrollHeight + "px";
+            panel.style.maxHeight = panel.scrollHeight*2 + "px";
         } else {
             panel.style.maxHeight = 0;
         }
