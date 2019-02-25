@@ -1,10 +1,9 @@
 async function fetchJSON(url) {
     let response = await fetch(url);
     let parsed = await response.json();
-    return parsed;
 }
 
-var parsed = fetchJSON("../projects/unigrades/Marks.json");
+fetchJSON("../projects/unigrades/Marks.json");
 
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
