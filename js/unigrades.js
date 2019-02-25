@@ -1,6 +1,26 @@
-async function fetchJSON(url) {
-    let response = await fetch(url);
-    let parsed = await response.json();
+fetch("https://alguoo.github.io/projects/unigrades/Marks.json").then(response => {
+  return response.json();
+}).then(parsed => {
+    // Work with JSON data here
+    console.log(parsed.Sheet1);
+    function textBox() {
+        var stationName = this.textContent.replace(/\s/g, "");
+        var found = parsed.Sheet1.find(function(e) {
+            return stationName == e.Title.replace(/\s/g, "");
+        });
+
+        if (typeof found !== 'undefined') {
+            // console.log(found.Code+":"+found.Title)
+            // console.log(found.Semester+", "+found.Year);
+            // console.log("Mark: "+found.Mark+" ("+found.Grade+")");
+            alert(found.Code+": "+found.Title + "\n" +
+                found.Semester+", "+found.Year + "\n" + 
+                "Mark: "+found.Mark+" ("+found.Grade+")" + "\n")
+        } else {
+            // console.log("Not Yet!");
+            alert("TBD, 2019.")
+        }
+    }
 
     var map = document.getElementById("map");
     map.addEventListener("load", function() {
@@ -23,28 +43,9 @@ async function fetchJSON(url) {
             Arr[i].text.addEventListener("click", textBox);
         }
     }, false);
-
-    function textBox() {
-        var stationName = this.textContent.replace(/\s/g, "");
-        var found = parsed.Sheet1.find(function(e) {
-            return stationName == e.Title.replace(/\s/g, "");
-        });
-
-        if (typeof found !== 'undefined') {
-            // console.log(found.Code+":"+found.Title)
-            // console.log(found.Semester+", "+found.Year);
-            // console.log("Mark: "+found.Mark+" ("+found.Grade+")");
-            alert(found.Code+": "+found.Title + "\n" +
-                found.Semester+", "+found.Year + "\n" + 
-                "Mark: "+found.Mark+" ("+found.Grade+")" + "\n")
-        } else {
-            // console.log("Not Yet!");
-            alert("TBD, 2019.")
-        }
-    }
-}
-
-fetchJSON("https://alguoo.github.io/projects/unigrades/Marks.json");
+}).catch(err => {
+    // Do something for an error here
+});
 
 
 
