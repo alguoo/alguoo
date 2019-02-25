@@ -4,7 +4,7 @@ async function fetchJSON(url) {
     return parsed;
 }
 
-parsed = fetchJSON("Marks.json");
+var parsed = fetchJSON("Marks.json");
 
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
