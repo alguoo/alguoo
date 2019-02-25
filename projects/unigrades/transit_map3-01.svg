@@ -7,9 +7,9 @@
 	.st1{fill:none;stroke:#FF7BAC;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
 	.st2{fill:none;stroke:#3FA9F5;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
 	.st3{fill:none;stroke:#7AC943;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
-	.st4{font-family:'Quicksand-Regular';}
+	.st4{font-family:'Quicksand'; font-weight: 400;}
 	.st5{font-size:12px;}
-	.st6{font-family:'Quicksand-Medium';}
+	.st6{font-family:'Quicksand'; font-weight: 500;}
 	.st7{font-size:16px;}
 	.st8{fill:#FF7BAC;}
 	.st9{font-size:48px;}

@@ -1,0 +1,279 @@
+{
+  "Sheet1": [
+    {
+      "Year": 2016,
+      "Semester": "Semester 1",
+      "Course": "B-COM",
+      "Code": "ACCT10001",
+      "Title": "Accounting Reports and Analysis",
+      "Field": "Commerce",
+      "Sub-field": "Accounting",
+      "Mark": 71,
+      "Grade": "H2B"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 2",
+      "Course": "B-COM",
+      "Code": "ACCT10002",
+      "Title": "Introductory Financial Accounting",
+      "Field": "Commerce",
+      "Sub-field": "Accounting",
+      "Mark": 67,
+      "Grade": "H3"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Summer Term",
+      "Course": "B-COM",
+      "Code": "FNCE20001",
+      "Title": "Business Finance",
+      "Field": "Commerce",
+      "Sub-field": "Finance",
+      "Mark": 85,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "ECON10004",
+      "Title": "Introductory Microeconomics",
+      "Field": "Commerce",
+      "Sub-field": "Economics",
+      "Mark": 86,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "ENVS10006",
+      "Title": "Mapping Environments",
+      "Field": "Other",
+      "Sub-field": "Environment",
+      "Mark": 93,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST10008",
+      "Title": "Accelerated Mathematics 1",
+      "Field": "Mathematics",
+      "Sub-field": "General",
+      "Mark": 91,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "ACTL10001",
+      "Title": "Introduction to Actuarial Studies",
+      "Field": "Commerce",
+      "Sub-field": "Actuarial Studies",
+      "Mark": 91,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "ECON10003",
+      "Title": "Introductory Macroeconomics",
+      "Field": "Commerce",
+      "Sub-field": "Economics",
+      "Mark": 87,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2016,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST10009",
+      "Title": "Accelerated Mathematics 2",
+      "Field": "Mathematics",
+      "Sub-field": "General",
+      "Mark": 96,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "COMP10001",
+      "Title": "Foundations of Computing",
+      "Field": "Computing/Software Systems",
+      "Sub-field": "Computer Science",
+      "Mark": 100,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "ECON20002",
+      "Title": "Intermediate Microeconomics",
+      "Field": "Commerce",
+      "Sub-field": "Economics",
+      "Mark": 89,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST20004",
+      "Title": "Probability",
+      "Field": "Mathematics",
+      "Sub-field": "Probability/Statistics",
+      "Mark": 88,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST20009",
+      "Title": "Vector Calculus",
+      "Field": "Mathematics",
+      "Sub-field": "Applied Mathematics",
+      "Mark": 97,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST20005",
+      "Title": "Statistics",
+      "Field": "Mathematics",
+      "Sub-field": "Probability/Statistics",
+      "Mark": 93,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST20022",
+      "Title": "Group Theory and Linear Algebra",
+      "Field": "Mathematics",
+      "Sub-field": "Pure Mathematics",
+      "Mark": 90,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST20030",
+      "Title": "Differential Equations",
+      "Field": "Mathematics",
+      "Sub-field": "Applied Mathematics",
+      "Mark": 86,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2017,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST30024",
+      "Title": "Geometry",
+      "Field": "Mathematics",
+      "Sub-field": "Pure Mathematics",
+      "Mark": 97,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "COMP10002",
+      "Title": "Foundations of Algorithms",
+      "Field": "Computing/Software Systems",
+      "Sub-field": "Computer Science",
+      "Mark": 86,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST30021",
+      "Title": "Complex Analysis",
+      "Field": "Mathematics",
+      "Sub-field": "Pure Mathematics",
+      "Mark": 94,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST30025",
+      "Title": "Linear Statistical Models",
+      "Field": "Mathematics",
+      "Sub-field": "Probability/Statistics",
+      "Mark": 72,
+      "Grade": "H2B"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 1",
+      "Course": "B-SCI",
+      "Code": "MAST30030",
+      "Title": "Applied Mathematical Modelling",
+      "Field": "Mathematics",
+      "Sub-field": "Applied Mathematics",
+      "Mark": 88,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST30001",
+      "Title": "Stochastic Modelling",
+      "Field": "Mathematics",
+      "Sub-field": "Probability/Statistics",
+      "Mark": 99,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 2",
+      "Course": "B-SCI",
+      "Code": "MAST30026",
+      "Title": "Metric and Hilbert Spaces",
+      "Field": "Mathematics",
+      "Sub-field": "Pure Mathematics",
+      "Mark": 98,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 2",
+      "Course": "D-INFO",
+      "Code": "COMP20003",
+      "Title": "Algorithms and Data Structures",
+      "Field": "Computing/Software Systems",
+      "Sub-field": "Computer Science",
+      "Mark": 98,
+      "Grade": "H1"
+    },
+    {
+      "Year": 2018,
+      "Semester": "Semester 2",
+      "Course": "D-INFO",
+      "Code": "SWEN20003",
+      "Title": "Object Oriented Software Development",
+      "Field": "Computing/Software Systems",
+      "Sub-field": "Software Engineering",
+      "Mark": 96,
+      "Grade": "H1"
+    }
+  ]
+}
