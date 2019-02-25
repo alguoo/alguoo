@@ -1,5 +1,10 @@
-let response = await fetch("Marks.json");
-let parsed = await response.json();
+async function fetchJSON(url) {
+    let response = await fetch(url);
+    let parsed = await response.json();
+    return parsed;
+}
+
+fetchJSON("Marks.json");
 
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
