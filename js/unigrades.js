@@ -3,7 +3,7 @@ async function fetchJSON(url) {
     let parsed = await response.json();
 }
 
-fetchJSON("Marks.json");
+fetchJSON("https://alguoo.github.io/projects/unigrades/Marks.json");
 
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
