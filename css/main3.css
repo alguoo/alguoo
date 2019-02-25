@@ -54,7 +54,7 @@ section {
 #me {
 	width: 20%;
 	height: 20%;
-	margin: 0;
+	margin: .1%;
 }
 .nav-fixed {
 	position: sticky;

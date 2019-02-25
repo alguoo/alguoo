@@ -10,6 +10,8 @@ var head = document.querySelector("h1");
 head.style.transition = "all .6s";
 head.addEventListener("mouseover", ()=>{paletteChange(head);});
 head.addEventListener("click", ()=>{paletteChange(head);});
+paletteChange(head)
+
 
 var links = document.querySelectorAll("li a");
 

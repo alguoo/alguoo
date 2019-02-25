@@ -1,6 +1,10 @@
 * {
-
+	/* background: #A5FFD6; */
+	/* font-family: Poppins; */
+	
+	background: white;
 	font-family: Quicksand;
+
 	font-size: 18px;
 	margin: 0 0;
     scroll-behavior: smooth;
@@ -39,7 +43,7 @@ h2 {
 }
 
 .nav {
-	background-color: white;
+	background-color: inherit;
 	list-style: none;
     padding-top: 1rem;
 	padding-left: 1.4rem;

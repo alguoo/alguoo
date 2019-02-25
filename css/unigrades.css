@@ -1,3 +1,9 @@
+
+
 #content {
     grid-column: 2;
+}
+
+.container {
+    grid-template-columns: 15% auto 15%;
 }
