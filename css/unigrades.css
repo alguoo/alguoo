@@ -1,9 +1,8 @@
-
-
-#content {
-    grid-column: 2;
+#map {
+    width: 100%;
+    max-height: 100vh;
 }
 
-.container {
-    grid-template-columns: 15% auto 15%;
+@media (max-width: 600px) {
+    max-height: 100vh
 }

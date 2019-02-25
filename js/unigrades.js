@@ -1,7 +1,5 @@
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
-    var svgDoc = map.contentDocument;
-    alert("SVG contentDocument Loaded!");
     var stations = map.contentDocument.getElementById("stations");
     s_n = stations.getElementsByTagName("text");
     var Arr = [];
@@ -12,7 +10,7 @@ map.addEventListener("load", function() {
     for (var i =0; i< Arr.length; i++) {
         Arr[i].text.style.transition = "all .3s"   
         Arr[i].text.addEventListener("mouseover", function(i) {
-            this.style.fill = "rgb(0,0,0,.5)";
+            this.style.fill = "rgba(0,0,0,.5)";
         });
         Arr[i].text.addEventListener("mouseout", function() {
             this.style.fill = "black";
