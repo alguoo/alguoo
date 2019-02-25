@@ -1,3 +1,6 @@
+let response = await fetch("Marks.json");
+let parsed = await response.json();
+
 var map = document.getElementById("map");
 map.addEventListener("load", function() {
     var stations = map.contentDocument.getElementById("stations");
@@ -9,14 +12,36 @@ map.addEventListener("load", function() {
 
     for (var i =0; i< Arr.length; i++) {
         Arr[i].text.style.transition = "all .3s"   
-        Arr[i].text.addEventListener("mouseover", function(i) {
+        Arr[i].text.addEventListener("mouseover", function() {
             this.style.fill = "rgba(0,0,0,.5)";
         });
         Arr[i].text.addEventListener("mouseout", function() {
             this.style.fill = "black";
         });
+
+        Arr[i].text.addEventListener("click", textBox);
     }
 }, false);
+
+function textBox() {
+    var stationName = this.textContent.replace(/\s/g, "");
+    var found = parsed.Sheet1.find(function(e) {
+        return stationName == e.Title.replace(/\s/g, "");
+    });
+
+    if (typeof found !== 'undefined') {
+        // console.log(found.Code+":"+found.Title)
+        // console.log(found.Semester+", "+found.Year);
+        // console.log("Mark: "+found.Mark+" ("+found.Grade+")");
+        alert(found.Code+": "+found.Title + "\n" +
+            found.Semester+", "+found.Year + "\n" + 
+            "Mark: "+found.Mark+" ("+found.Grade+")" + "\n")
+    } else {
+        // console.log("Not Yet!");
+        alert("TBD, 2019.")
+    }
+}
+
 
 
 
