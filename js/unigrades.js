@@ -24,7 +24,8 @@ fetch("https://alguoo.github.io/projects/unigrades/Marks.json").then(response =>
 
     var map = document.getElementById("map");
     map.addEventListener("load", function() {
-        var stations = map.contentDocument.getElementById("stations");
+        var svgDoc = map.contentDocument;
+        var stations = svgDoc.getElementById("stations");
         s_n = stations.getElementsByTagName("text");
         var Arr = [];
         for (var i = 0 ; i < s_n.length ; i++) {
@@ -41,6 +42,49 @@ fetch("https://alguoo.github.io/projects/unigrades/Marks.json").then(response =>
             });
 
             Arr[i].text.addEventListener("click", textBox);
+        }
+
+        var subText = svgDoc.getElementById("subText");
+
+        var dic = {'st8':'st1','st10':'st2','st11':'st3'};
+        var set = ['st8', 'st10', 'st11'];
+
+        function toggleClassOnClass(target, toggle, disable) {
+            var items = svgDoc.getElementsByClassName(target);
+            for (var i = 0; i < items.length; i++) {
+                if (disable == "disable") {
+                items[i].classList.remove(toggle);
+                } else {
+                    items[i].classList.add(toggle);
+                }
+            }
+        }
+        function togOpac() {
+            for (var j = 0; j < set.length; j++) {
+                if (set[j]!=this.classList[0]) {
+                    toggleClassOnClass(set[j], "opac", "enable");
+                    toggleClassOnClass(dic[set[j]], "opac", "enable");
+                } else {      
+                    toggleClassOnClass(set[j], "opac", "disable");
+                    toggleClassOnClass(dic[set[j]], "opac", "disable");
+                }
+            }
+        }
+
+        function returnOpac() {
+            for (var j = 0; j < set.length; j++) {     
+                    toggleClassOnClass(set[j], "opac", "disable");
+                    toggleClassOnClass(dic[set[j]], "opac", "disable");
+            }
+        }
+
+        
+
+        for (var i = 0; i < subText.children.length; i++) {
+            subText.children[i].addEventListener("mouseover", togOpac);
+            subText.children[i].addEventListener("mouseout", returnOpac);
+            subText.children[i].addEventListener("click", togOpac);
+
         }
     }, false);
 }).catch(err => {

@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1393.8 1007.1" style="enable-background:new 0 0 1393.8 1007.1;" xml:space="preserve">
+<style type="text/css">
+	@import url("https://fonts.googleapis.com/css?family=Quicksand:400,500");
+	.st0{fill:#FFFFFF;}
+	.st1{fill:none;stroke:#FF7BAC;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#3FA9F5;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#7AC943;stroke-width:15;stroke-linecap:round;stroke-miterlimit:10;}
+	.st4{font-family:'Quicksand'; font-weight: 400;}
+	.st5{font-size:14px;}
+	.st6{font-family:'Quicksand'; font-weight: 500;}
+	.st7{font-size:16px;}
+	.st8{fill:#FF7BAC;}
+	.st9{font-size:48px;}
+	.st10{fill:#3FA9F5;}
+	.st11{fill:#7AC943;}
+	.opac{opacity: 0.5;}
+</style>
+<symbol  id="Station" viewBox="-5 -5 10 10">
+	<g>
+		<circle class="st0" cx="0" cy="0" r="5"/>
+		<path class="st0" d="M0,5c-2.8,0-5-2.2-5-5s2.2-5,5-5s5,2.2,5,5S2.8,5,0,5L0,5z"/>
+	</g>
+</symbol>
+<g id="maths">
+	<g id="stats-ds_1_">
+		<path class="st1" d="M799.4,448.6h12.8c9.3,0,18.2,3.7,24.7,10.3l135.9,135.9c6.6,6.6,15.5,10.3,24.7,10.3h185.1"/>
+	</g>
+	<g id="applied_2_">
+		<path class="st1" d="M646.1,474v-7c0-19.3,15.7-35,35-35h107.1c9.3,0,18.2-3.7,24.7-10.3l69-69c6.6-6.6,9.5-15.5,9.5-24.7V95.3"/>
+	</g>
+	<g id="pure_1_">
+		<path class="st1" d="M441.9,138.3l194,194c6.6,6.6,10.3,15.5,10.3,24.7v209c0,9.3-3.7,18.2-10.3,24.7l-61.7,61.7"/>
+	</g>
+	<g id="stats">
+		<path class="st1" d="M416.6,675h120.5c9.3,0,18.2-3.7,24.7-10.3l91.6-91.6c7.8-7.8,20.5-20.5,28.3-28.3l86-86
+			c6.6-6.6,15.5-10.3,24.7-10.3h305"/>
+	</g>
+</g>
+<g id="prog">
+	<g id="comp-ds">
+		<path class="st2" d="M752.2,785.1h59.4c9.4,0,18.3-3.8,24.9-10.4l138.8-143.8c6.6-6.7,15.6-10.4,24.9-10.4h182.4"/>
+	</g>
+	<g id="compsci_1_">
+		<path class="st2" d="M605.7,744.3l30.2,30.2c6.6,6.6,15.5,10.3,24.7,10.3h87.5c11,0,29,0,40,0h164.5"/>
+	</g>
+	<g id="swd">
+		<path class="st2" d="M417.4,691h120.5c9.3,0,18.2,3.7,24.7,10.3l221.6,221.6"/>
+	</g>
+</g>
+<g id="comm">
+	<g id="acct_2_">
+		<path class="st3" d="M406.2,644.5C399,637.9,395,629,395,619.8v-79c0-9.3,4.1-18.2,11.3-24.7l96.5-87.7"/>
+	</g>
+	<g id="eco">
+		<path class="st3" d="M402.6,641.5l-37.1-33.7c-7.2-6.6-17-10.3-27.2-10.3H185.4c-10.2,0-20-3.7-27.2-10.3l-11.8-10.7
+			c-7.2-6.6-11.3-15.5-11.3-24.7V352.3"/>
+	</g>
+	<g id="fin">
+		<path class="st3" d="M537.1,659H438c-10.2,0-20-3.7-27.2-10.3L295.9,544.3c-7.2-6.6-11.3-15.5-11.3-24.7V379"/>
+	</g>
+</g>
+<g id="stations">
+	<g id="sComm">
+		<g id="sEco_1_">
+			<text transform="matrix(1 0 0 1 147.9666 424.2494)"><tspan x="0" y="0" class="st4 st5">Intermediate</tspan><tspan x="0" y="16.8" class="st4 st5">Microeconomics</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-1.0667 0 0 1.0333 135.1265 428.0859)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 147.9666 500.2283)"><tspan x="0" y="0" class="st4 st5">Introductory</tspan><tspan x="0" y="16.8" class="st4 st5">Macroeconomics</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-1.0333 0 0 1.0667 135.1265 503.9218)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 172.5586 568.0748)"><tspan x="0" y="0" class="st4 st5">Introductory</tspan><tspan x="0" y="16.8" class="st4 st5">Microeconomics</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.6727 0.7399 0.8139 0.7399 146.4029 576.5013)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-1.1 0 0 1 135.1265 352.25)" style="overflow:visible;"/>
+		<g id="sAcct_1_">
+			<text transform="matrix(1 0 0 1 458.361 490.3604)"><tspan x="0" y="0" class="st4 st5">Introductory</tspan><tspan x="0" y="16.8" class="st4 st5">Financial Accounting</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-1.321056e-07 -1.0256 -1.0732 -4.994327e-02 435.2336 489.6288)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 409.6483 561.136)"><tspan x="0" y="0" class="st4 st5">Accounting Reports</tspan><tspan x="0" y="16.8" class="st4 st5">and Analysis</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7778 -0.7071 -0.7778 0.7071 394.9509 564.7878)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-3.453081e-07 -1 -1.1 3.139165e-07 502.7509 428.2494)" style="overflow:visible;"/>
+		<g id="sFin_2_">
+			<text transform="matrix(1 0 0 1 300.6364 461.4908)"><tspan x="0" y="0" class="st4 st5">Introduction to</tspan><tspan x="0" y="16.8" class="st4 st5">Actuarial Studies</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(0.7433 0.7433 0.7399 -0.7399 284.6015 463.2538)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 315.9325 536.854)"><tspan x="0" y="0" class="st4 st5">Business</tspan><tspan x="0" y="16.8" class="st4 st5"> Finance</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1.0512 0 -9.988765e-02 -1.0464 295.8779 544.2513)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(0.7778 0.7071 0.7778 -0.7071 284.6015 379)" style="overflow:visible;"/>
+	</g>
+	
+		<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1 0 0 -1 494.2121 658.9453)" style="overflow:visible;"/>
+	<g id="sProg">
+		<g id="sSwd_1_">
+			<text transform="matrix(1 0 0 1 585.8445 710.7505)" class="st4 st5">Foundations of Computing</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M566.7,705.3"/>
+						<path class="st0" d="M566.7,700.3c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5c1.3,0,2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C569.3,700.8,568,700.3,566.7,700.3L566.7,700.3z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 640.0164 752.9224)"><tspan x="0" y="0" class="st4 st5">Foundations</tspan><tspan x="0" y="16.8" class="st4 st5">    of Algorithms</tspan></text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M621.1,759.7"/>
+						<path class="st0" d="M621.1,754.7c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5c1.3,0,2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C623.7,755.2,622.4,754.7,621.1,754.7L621.1,754.7z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 693.0997 818.0057)" class="st4 st5">Object Oriented Software Development</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M675.5,814.1"/>
+						<path class="st0" d="M675.5,809.1c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C678,809.6,676.8,809.1,675.5,809.1L675.5,809.1z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 747.755 872.661)" class="st4 st5">Software Modelling and Design</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M729.8,868.5"/>
+						<path class="st0" d="M729.8,863.5c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5c1.3,0,2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C732.4,864,731.1,863.5,729.8,863.5L729.8,863.5z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<path class="st0" d="M784.2,922.8"/>
+					<path class="st0" d="M784.2,917.8c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5c1.3,0,2.6-0.5,3.5-1.5
+						c2-2,2-5.1,0-7.1C786.8,918.3,785.5,917.8,784.2,917.8L784.2,917.8z"/>
+				</g>
+			</g>
+		</g>
+		<g id="sCompsci_1_">
+			<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 879.3715 774.9907)" class="st4 st5">Models of Computation</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 865.9515 784.8077)" style="overflow:visible;"/>
+			<text transform="matrix(0.7071 -0.7071 0.7071 0.7071 793.2994 774.9907)" class="st4 st5">Algorithms and Data Structures</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 779.1985 784.8077)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 952.7047 784.8077)" style="overflow:visible;"/>
+		<g id="sDsB">
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.706 0.7082 0.7082 0.706 1182.6012 620.4122)" style="overflow:visible;"/>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.706 0.7082 0.7082 0.706 1095.8483 620.5458)" style="overflow:visible;"/>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.706 0.7082 0.7082 0.706 1009.0952 620.6796)" style="overflow:visible;"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<circle class="st0" cx="494.3" cy="691" r="5"/>
+				<path class="st0" d="M494.3,686c-2.8,0-5,2.2-5,5s2.2,5,5,5c2.8,0,5-2.2,5-5S497,686,494.3,686L494.3,686z"/>
+			</g>
+		</g>
+	</g>
+	<g id="sMath">
+		<g id="sStats">
+			<text transform="matrix(1 0 0 1 583.5624 664.3848)" class="st4 st5">Accelerated Mathematics 1</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M566.4,660.3"/>
+						<path class="st0" d="M566.4,655.3c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C568.9,655.7,567.7,655.3,566.4,655.3L566.4,655.3z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 637.9962 609.9509)" class="st4 st5">Accelerated Mathematics 2</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M620.9,605.7"/>
+						<path class="st0" d="M620.9,600.7c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C623.5,601.2,622.2,600.7,620.9,600.7L620.9,600.7z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 692.3282 555.6189)" class="st4 st5">Probability</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M675.5,551.1"/>
+						<path class="st0" d="M675.5,546.1c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C678.1,546.6,676.8,546.1,675.5,546.1L675.5,546.1z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(1 0 0 1 746.2666 501.6805)" class="st4 st5">Statistics</text>
+			<g>
+				<g>
+					<g>
+						<path class="st0" d="M730.1,496.6"/>
+						<path class="st0" d="M730.1,491.6c-1.3,0-2.6,0.5-3.5,1.5c-2,2-2,5.1,0,7.1c1,1,2.3,1.5,3.5,1.5s2.6-0.5,3.5-1.5
+							c2-2,2-5.1,0-7.1C732.6,492,731.4,491.6,730.1,491.6L730.1,491.6z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 795.331 464.5444)" class="st4 st5">Stochastic Modelling</text>
+			<g>
+				<g>
+					<g>
+						<circle class="st0" cx="788.9" cy="448.8" r="5"/>
+						<path class="st0" d="M788.9,443.8c-0.2,0-0.4,0-0.5,0c-2.7,0.3-4.7,2.8-4.4,5.5c0.3,2.6,2.4,4.5,5,4.5c0.2,0,0.4,0,0.5,0
+							c2.7-0.3,4.7-2.8,4.4-5.5C793.6,445.7,791.4,443.8,788.9,443.8L788.9,443.8z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 873.3183 464.5444)" class="st4 st5">Linear Statistical Models</text>
+			<g>
+				<g>
+					<g>
+						<circle class="st0" cx="866.1" cy="448.6" r="5"/>
+						<path class="st0" d="M866.1,443.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5s5-2.2,5-5C871.1,445.8,868.8,443.6,866.1,443.6
+							L866.1,443.6z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 949.4448 464.5444)" class="st4 st5">Probability for Inference</text>
+			<g>
+				<g>
+					<g>
+						<circle class="st0" cx="943.2" cy="448.6" r="5"/>
+						<path class="st0" d="M943.2,443.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5s5-2.2,5-5C948.2,445.8,946,443.6,943.2,443.6L943.2,443.6
+							z"/>
+					</g>
+				</g>
+			</g>
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1025.4565 464.5444)" class="st4 st5">Modern Applied Statistics</text>
+			<g>
+				<g>
+					<g>
+						<circle class="st0" cx="1020.4" cy="448.6" r="5"/>
+						<path class="st0" d="M1020.4,443.6c-2.8,0-5,2.2-5,5s2.2,5,5,5s5-2.2,5-5S1023.2,443.6,1020.4,443.6L1020.4,443.6z"/>
+					</g>
+				</g>
+			</g>
+		</g>
+		<g>
+			<g>
+				<g>
+					<circle class="st0" cx="1097.6" cy="448.6" r="5"/>
+					<path class="st0" d="M1097.6,443.6c-2.8,0-5,2.2-5,5c0,2.8,2.2,5,5,5c2.8,0,5-2.2,5-5C1102.6,445.8,1100.3,443.6,1097.6,443.6
+						L1097.6,443.6z"/>
+				</g>
+			</g>
+		</g>
+		<g id="sPure">
+			<text transform="matrix(1 0 0 1 529.0315 211.8773)" class="st4 st5">Algebra</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1 0 0 -1 509.6605 206.0575)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 585.8442 268.6899)" class="st4 st5">Metric and Hilbert Spaces</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1 0 0 -1 566.7521 263.1492)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 641.3816 324.4738)" class="st4 st5">Geometry</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1 0 0 -1 623.8439 320.2409)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 658.0768 390.3676)"><tspan x="0" y="0" class="st4 st5">Group Theory and </tspan><tspan x="0" y="16.8" class="st4 st5">Linear Algebra</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(0.7071 0.7071 0.7071 -0.7071 646.1188 393.2601)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 657.0768 477.7326)"><tspan x="0" y="0" class="st4 st5">Complex</tspan><tspan x="0" y="16.8" class="st4 st5">Analysis</tspan></text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(0.7071 0.7071 0.7071 -0.7071 646.1188 474)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(1 0 0 -1 441.8708 138.2679)" style="overflow:visible;"/>
+		<g id="sApplied">
+			<text transform="matrix(1 0 0 1 903.486 176.6439)" class="st4 st5">Numerical Methods &amp; Scientific Computing</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 891.4925 172.3238)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 903.486 253.7733)" class="st4 st5">Applied Mathematical Modelling</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 891.4925 249.3142)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 903.486 330.5726)" class="st4 st5">Differential Equations</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 891.4925 326.3047)" style="overflow:visible;"/>
+			<text transform="matrix(1 0 0 1 865.1268 392.1472)" class="st4 st5">Vector Calculus</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-1 0 0 1 847.9966 386.7459)" style="overflow:visible;"/>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 -0.7071 -0.7071 0.7071 788.2451 432)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 891.4925 95.3333)" style="overflow:visible;"/>
+		<g id="sDsR">
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1101.4683 635.7114)" class="st4 st5">Machine Learning</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 1095.8481 604.9369)" style="overflow:visible;"/>
+			<text transform="matrix(0.7071 0.7071 -0.7071 0.7071 1013.1606 635.7114)" class="st4 st5">Artificial Intelligence</text>
+			
+				<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 1009.095 604.9369)" style="overflow:visible;"/>
+		</g>
+		
+			<use xlink:href="#Station"  width="10" height="10" x="-5" y="-5" transform="matrix(-0.7071 0.7071 0.7071 0.7071 1182.6012 604.9369)" style="overflow:visible;"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<circle class="st0" cx="493.8" cy="675" r="5"/>
+				<path class="st0" d="M493.8,670c-2.8,0-5,2.2-5,5s2.2,5,5,5c2.8,0,5-2.2,5-5S496.6,670,493.8,670L493.8,670z"/>
+			</g>
+		</g>
+	</g>
+</g>
+<g id="groupText">
+	<text transform="matrix(1 0 0 1 812.2454 75.2947)" class="st6 st7">Applied Mathematics</text>
+	<text transform="matrix(1 0 0 1 375.7311 117.8896)" class="st6 st7">Pure Mathematics</text>
+	<text transform="matrix(1 0 0 1 1138.5096 446.5618)"><tspan x="0" y="0" class="st6 st7">Statistics and </tspan><tspan x="-25.8" y="19.2" class="st6 st7">Stochastic Processes</tspan></text>
+	<text transform="matrix(1 0 0 1 1200.9679 617.201)" class="st6 st7">Data Science</text>
+	<text transform="matrix(1 0 0 1 968.1358 790.6986)" class="st6 st7">Computer Science</text>
+	<text transform="matrix(1 0 0 1 732.4909 952.6642)" class="st6 st7">Software Design</text>
+	<text transform="matrix(1 0 0 1 460.7581 409.9566)" class="st6 st7">Accounting</text>
+	<text transform="matrix(1 0 0 1 256.2658 353.7444)" class="st6 st7">Finance</text>
+	<text transform="matrix(1 0 0 1 95.9594 334.8035)" class="st6 st7">Economics</text>
+</g>
+<g id="subText">
+	<text transform="matrix(1 0 0 1 1020.3489 121.8894)" class="st8 st6 st9">Mathematics</text>
+	<text transform="matrix(1 0 0 1 998.8754 892.9685)" class="st10 st6 st9">Programming</text>
+	<text transform="matrix(1 0 0 1 93.4108 285.1671)" class="st11 st6 st9">Commerce</text>
+</g>
+<g id="titleText">
+	<text transform="matrix(1 0 0 1 72.8459 871.9685)"><tspan x="0" y="0" class="st6 st9">Alan Guo’s</tspan><tspan x="0" y="57.6" class="st6 st9">Undergraduate Degree</tspan></text>
+</g>
+</svg>
