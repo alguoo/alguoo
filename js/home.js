@@ -6,7 +6,7 @@ head.addEventListener("mouseover", ()=>{paletteChange(head);});
 head.addEventListener("click", ()=>{paletteChange(head);});
 
 // Links Colour Change
-var links = document.querySelectorAll("li a");
+var links = document.querySelectorAll("a");
 
 for (var i = 0; i < links.length; i++) {
     links[i].addEventListener("mouseover", hover);
