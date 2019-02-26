@@ -2,7 +2,6 @@
 	/* background: #A5FFD6; */
 	/* font-family: Poppins; */
 	
-	background: white;
 	font-family: Quicksand;
 
 	font-size: 18px;
@@ -43,7 +42,7 @@ h2 {
 }
 
 .nav {
-	background-color: inherit;
+	background: white;
 	list-style: none;
     padding-top: 1rem;
 	padding-left: 1.4rem;
