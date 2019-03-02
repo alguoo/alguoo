@@ -1,9 +1,7 @@
-var xmlhttp = new XMLHttpRequest();
-var url = "https://alguoo.github.io/projects/unigrades/Marks.json";
-
-xmlhttp.onreadystatechange = function() {
-if (this.readyState == 4 && this.status == 200) {
-    var parsed = JSON.parse(this.responseText);
+fetch("https://alguoo.github.io/projects/unigrades/Marks.json").then(response => {
+  return response.json();
+}).then(parsed => {
+    // Work with JSON data here
     console.log(parsed.Sheet1);
     function textBox() {
         var stationName = this.textContent.replace(/\s/g, "");
@@ -80,6 +78,8 @@ if (this.readyState == 4 && this.status == 200) {
             }
         }
 
+        
+
         for (var i = 0; i < subText.children.length; i++) {
             subText.children[i].addEventListener("mouseover", togOpac);
             subText.children[i].addEventListener("mouseout", returnOpac);
@@ -87,8 +87,12 @@ if (this.readyState == 4 && this.status == 200) {
 
         }
     }, false);
-    }
-};
+}).catch(err => {
+    // Do something for an error here
+});
 
-xmlhttp.open("GET", url, true);
-xmlhttp.send();
+
+
+
+
+
