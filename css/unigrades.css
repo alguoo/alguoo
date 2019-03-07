@@ -1,8 +1,7 @@
 #map {
-    width: 100%;
-    max-height: 100vh;
+    max-height: 95vh;
 }
 
 @media (max-width: 600px) {
-    max-height: 100vh
+    /* max-height: 100vh */
 }
