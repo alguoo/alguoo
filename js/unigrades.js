@@ -13,9 +13,6 @@ if (this.readyState == 4 && this.status == 200) {
         });
 
         if (typeof found !== 'undefined') {
-            // console.log(found.Code+":"+found.Title)
-            // console.log(found.Semester+", "+found.Year);
-            // console.log("Mark: "+found.Mark+" ("+found.Grade+")");
             alert(found.Code+": "+found.Title + "\n" +
                 found.Semester+", "+found.Year + "\n" + 
                 "Mark: "+found.Mark+" ("+found.Grade+")" + "\n")
@@ -40,10 +37,17 @@ if (this.readyState == 4 && this.status == 200) {
             Arr[i].text.addEventListener("mouseover", function() {
                 this.style.fill = "rgba(0,0,0,.5)";
                 this.style.fontSize = "16px";
+                for (var j = 0; j < this.children.length; j++) {
+                    this.children[j].style.transition = "all .3s";
+                    this.children[j].style.fontSize = "16px";
+                }
             });
             Arr[i].text.addEventListener("mouseout", function() {
                 this.style.fill = "black";
                 this.style.fontSize = "14px";
+                for (var j = 0; j < this.children.length; j++) {
+                    this.children[j].style.fontSize = "14px";
+                }
             });
 
             Arr[i].text.addEventListener("click", textBox);
