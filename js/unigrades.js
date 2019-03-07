@@ -5,6 +5,7 @@ xmlhttp.onreadystatechange = function() {
 if (this.readyState == 4 && this.status == 200) {
     var parsed = JSON.parse(this.responseText);
     console.log(parsed.Sheet1);
+    console.log("Loaded JSON successfully.");
     function textBox() {
         var stationName = this.textContent.replace(/\s/g, "");
         var found = parsed.Sheet1.find(function(e) {
@@ -38,9 +39,11 @@ if (this.readyState == 4 && this.status == 200) {
             Arr[i].text.style.transition = "all .3s"   
             Arr[i].text.addEventListener("mouseover", function() {
                 this.style.fill = "rgba(0,0,0,.5)";
+                this.style.fontSize = "16px";
             });
             Arr[i].text.addEventListener("mouseout", function() {
                 this.style.fill = "black";
+                this.style.fontSize = "14px";
             });
 
             Arr[i].text.addEventListener("click", textBox);
