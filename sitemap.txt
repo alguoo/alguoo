@@ -1,2 +1,6 @@
 https://alguoo.github.io/
-https://alguoo.github.io/projects.html
+https://alguoo.github.io/projects/
+https://alguoo.github.io/projects/index.html
+https://alguoo.github.io/projects/unigrades/
+https://alguoo.github.io/projects/unigrades/index.html
+https://alguoo.github.io/index.html
