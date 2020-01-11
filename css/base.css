@@ -3,6 +3,7 @@
 	/* font-family: Poppins; */
 	
 	font-family: Quicksand;
+	/* font-family: Arial; */
 
 	font-size: 18px;
 	margin: 0 0;
@@ -39,6 +40,8 @@ h3 {
 h2 {
 	/* font-size: 1.5rem; */
 	margin-bottom: .5em;
+	/* font-size: 1.5rem;
+	font-weight: normal; */
 }
 
 .nav {

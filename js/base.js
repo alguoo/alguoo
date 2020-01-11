@@ -1,12 +1,19 @@
 var acc = document.querySelectorAll(".accordian");
 var panels = document.querySelectorAll(".panel");
 
+function panelSelector(elem) {
+    var panel = elem.nextElementSibling;
+    while (!panel.matches(".panel")) {
+        panel = panel.nextElementSibling;
+    } return panel;
+}
+
 for (var i = 0; i < acc.length; i++) {
 
     acc[i].addEventListener("click", function(){
         this.classList.toggle("active");
 
-        var panel = this.nextElementSibling;
+        var panel = panelSelector(this)
         // panel.style.display = (panel.style.display == "none") ? "block" : "none";
 
         if ("accordian active" == this.classList.value) {
@@ -17,7 +24,7 @@ for (var i = 0; i < acc.length; i++) {
     });  
 
     acc[i].style.color = "black";
-    var panel = acc[i].nextElementSibling;
+    var panel = panelSelector(acc[i]);
     if ("accordian active" == acc[i].classList.value) {
     } else {
         panel.style.maxHeight = 0;
