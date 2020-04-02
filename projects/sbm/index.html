@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../../css/sbm.css">
+</head>
+<body>
+    <div id="observablehq-185913d1"></div>
+    <script type="module">
+    import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
+    import define from "https://api.observablehq.com/@alanguo112/force-directed-graph.js?v=3";
+    const inspect = Inspector.into("#observablehq-185913d1");
+    (new Runtime).module(define, name => (name === "chart") && inspect());
+    </script>
+    <!-- <script src="https://d3js.org/d3.v5.min.js"></script> -->
+    <!-- <script type="text/javascript" src="sbm.json"></script> -->
+    <!-- <script src="../../js/sbm.js"></script> -->
+</body>
+</html>
