@@ -1,5 +1,4 @@
-{
- "nodes": [{"id": 1},
+{"nodes": [{"id": 1},
   {"id": 2},
   {"id": 3},
   {"id": 4},
@@ -409,5 +408,4 @@
   {"source": 46, "target": 49},
   {"source": 47, "target": 48},
   {"source": 47, "target": 49},
-  {"source": 49, "target": 50}]
-}
+  {"source": 49, "target": 50}]}
