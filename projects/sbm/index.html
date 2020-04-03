@@ -463,6 +463,22 @@ polar = d => {
 color = d => {
     return d.id <= pi*N ? "red" : "blue";
 }
+
+function colMode() {
+    simulation
+        .force("x", d3.forceX(d => 200*polar(d)[0]))
+        .force("y", d3.forceY(d => 200*polar(d)[1]))
+        .force("link", d3.forceLink().id(d => d.id).strength(d => 0))
+        .force("center", d3.forceCenter(width / 2, height / 2))
+        .force("charge", null);
+
+    node.transition().duration(500)
+        .attr("fill", color);
+
+    link.transition().duration(500)
+        .attr("stroke", d => ['red','blue','purple'][clusterFlag(d)])
+}
+
 var svg = d3.select("svg"),
     width = +svg.attr("width"),
     height = +svg.attr("height");
@@ -574,20 +590,7 @@ svg.on("click", function() {
 
 })
 
-function colMode() {
-    simulation
-        .force("x", d3.forceX(d => 200*polar(d)[0]))
-        .force("y", d3.forceY(d => 200*polar(d)[1]))
-        .force("link", d3.forceLink().id(d => d.id).strength(d => 0))
-        .force("center", d3.forceCenter(width / 2, height / 2))
-        .force("charge", null);
 
-    node.transition().duration(500)
-        .attr("fill", color);
-
-    link.transition().duration(500)
-        .attr("stroke", d => ['red','blue','purple'][clusterFlag(d)])
-}
 
 // graph creator
 function graphJson(p, q, pi, N) {
@@ -631,6 +634,7 @@ function textPop(k) {
             ]
     return text[k]
 }
+
 d3.select("#hi").html(textPop(clickFlag))
 
     </script>
