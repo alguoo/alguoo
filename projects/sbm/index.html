@@ -8,7 +8,12 @@
     <link rel="stylesheet" href="../../css/sbm.css">
 </head>
 <body>
-    <svg viewBox = "-300 -300 600 600"></svg>
+    <div class="container">
+        <svg viewBox = "-300 -300 600 600">
+        </svg>
+        <div id = "hi"></div>
+    </div>
+    
     <script src="https://d3js.org/d3.v5.min.js"></script>
     <script>
 // Example graph
@@ -457,7 +462,7 @@ var svg = d3.select("svg"),
     height = +svg.attr("height");
 
 var manyBody = d3.forceManyBody()
-manyBody.strength(-250)
+manyBody.strength(-350)
 
 var clickFlag = 0
 
@@ -542,11 +547,11 @@ svg.on("click", function() {
         .force("link", d3.forceLink(links).id(d => d.id));
         break;
     case 1:
-        link.transition().duration(1000)
+        link.transition().duration(1500)
         .attr("stroke", 'black')
         .attr("stroke-width", 1.5);
 
-        node.transition().duration(1000)
+        node.transition().duration(1500)
         .attr("fill", 'black');
         break;
     case 2:
@@ -557,19 +562,23 @@ svg.on("click", function() {
         .force("center", d3.forceCenter(width / 2, height / 2))
         .force("charge", null);
 
-        node.transition().duration(350)
+        node.transition().duration(500)
         .attr("fill", color);
 
-        link.transition().duration(350)
+        link.transition().duration(500)
         .attr("stroke", d => clusterFlag(d) ? 'purple' : 'black')
         .attr("stroke-width", d => clusterFlag(d) ? 1.5 : 1.5);
         break;
             
     }
     clickFlag = (clickFlag + 1)%3
+    d3.select("#hi").html(textPop(clickFlag))
+
     simulation.alphaTarget(.2).restart();
 
 })
+
+
 
 // graph creator
 function graphJson(p, q, pi, N) {
@@ -602,6 +611,18 @@ function graphJson(p, q, pi, N) {
 
     return graph;
 };
+
+function textPop(k) {
+    text = [
+    "This represents a population of " + N + " people, with " + pi*100 + "% belonging in one community and the remaining in another. \
+    Any two people will have a probability of " + p + " if they belong in the same community, or else with probability " + q + "." + "<br><br>" +
+    "(Click on the network please lol)",
+    "Based on this structure of friendships, patterns and clustering naturally emerge...",
+    "...but when we observe the connections alone, can we really tell where the communities are?"
+            ]
+    return text[k]
+}
+d3.select("#hi").html(textPop(clickFlag))
 
     </script>
     <!-- <script type="text/javascript" src="sbm.json"></script> -->

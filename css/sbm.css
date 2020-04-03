@@ -1,0 +1,28 @@
+* {
+	/* background: #A5FFD6; */
+	/* font-family: Poppins; */
+	
+	font-family: Arial;
+	/* font-family: Arial; */
+
+	font-size: 18px;
+	margin: 0 0;
+    scroll-behavior: smooth;
+	text-decoration: none;
+	-webkit-overflow-scrolling: touch;
+}
+
+.container {
+	display: grid;
+	grid-template-columns: 25% auto 25%;
+}
+
+svg {
+    grid-column: 2;
+}
+
+#hi {
+    /* color: red; */
+    grid-row: 2;
+    grid-column: 2;
+}
