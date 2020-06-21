@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../../css/sbm.css">
 </head>
 <body>
+    
     <div class="container">
+        <div id = "title">Community Detection in Stochastic Block Models</div>
         <svg viewBox = "-300 -300 600 600">
         </svg>
         <div id = "hi"></div>
@@ -433,10 +435,10 @@ var links = graph.links.map(d => Object.create(d));
 var nodes = graph.nodes.map(d => Object.create(d));
 
 p = .5; q = .3; pi = .3; N = 50;
-p = parseFloat(prompt("Enter a value for p in [0,1]: \nProbability of intra-community friendship.",".5"))
-q = parseFloat(prompt("Enter a value for q in [0,1]: \nProbability of inter-community friendship.",".3"))
-pi = parseFloat(prompt("Enter a value for pi in [0,0.5]: \nProportion of people in the smaller community.",".3"))
-N = parseInt(prompt("Enter a value for N > 0: \nNumber of people.","50"))
+// p = parseFloat(prompt("Enter a value for p in [0,1]: \nProbability of intra-community friendship.",".5"))
+// q = parseFloat(prompt("Enter a value for q in [0,1]: \nProbability of inter-community friendship.",".3"))
+// pi = parseFloat(prompt("Enter a value for pi in [0,0.5]: \nProportion of people in the smaller community.",".3"))
+// N = parseInt(prompt("Enter a value for N > 0: \nNumber of people.","50"))
 
 graph = graphJson(p,q,pi,N)
 links_intra = graph.links_intra
@@ -628,7 +630,7 @@ function textPop(k) {
     text = [
     "This represents a population of " + N + " people, with " + (pi*100).toFixed(0) + "% belonging in one community and the remaining in another. \
     Any two people will have a probability of " + p.toFixed(2) + " of being friends if they belong in the same community, and otherwise with probability " + q.toFixed(2) + "." + "<br><br>" +
-    "(Click on the network please lol)",
+    "(Click on the network)",
     "Based on this structure of friendships, patterns and clustering naturally emerge...",
     "...but when we observe the connections alone, can we really tell where the communities are?"
             ]
